@@ -1,0 +1,16 @@
+My game is going to be a shooting scroller titled "LM10: Rondaldo's Revenge", the first of many 
+installments of the LM10 franchise. Leo Messi has had his Ballon d'Or stolen by Ronaldo and he
+is trying to get it back. Messi must dodge and defeat a number of rivals as he dribbles his way
+to glory and reclaims his trophy. 
+
+There are two types of levels -- "normal" levels and a boss level (Ronaldo). To finish the
+normal levels, you must navigate your way through sliding defenders, goal keepers, unruly 
+fans, etc. as they move from the top of the screen to the bottom, where Messi is positioned.
+The defenders and goalkeepers will have no AI; they will run on set cycles. Messi can also
+shoot soccer balls at obstacles to destroy them. 
+
+The boss level will feature Ronaldo; Messi must defeat him by avoiding his projectiles and
+shooting soccer balls at him. Ronaldo is different from the other enemies that Messi encounters
+in that he is stronger (takes more shots to kill), and shoots harder (does more damage) and 
+faster. He also shoots at Messi's position as opposed to randomly. He can also dodge some of
+Messi's shots.In general, Ronaldo has better AI.
