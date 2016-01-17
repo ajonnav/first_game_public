@@ -1,7 +1,9 @@
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -18,7 +20,7 @@ public class Main extends Application {
     private static final int MILLISECOND_DELAY = 1000 / FRAMES_PER_SECOND;
     private static final double SECOND_DELAY = 1.0 / FRAMES_PER_SECOND;
 
-    private ExampleGame myGame;
+    private LM10Game myGame;
 
 
     /**
@@ -27,11 +29,12 @@ public class Main extends Application {
     @Override
     public void start (Stage s) {
         // create your own game here
-        myGame = new ExampleGame();
+        myGame = new LM10Game();
         s.setTitle(myGame.getTitle());
 
         // attach game to the stage and display it
-        Scene scene = myGame.init(SIZE, SIZE);
+        Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
+        Scene scene = myGame.init(500, (int)primaryScreenBounds.getHeight());
         s.setScene(scene);
         s.show();
 
