@@ -23,6 +23,7 @@ Main.java
 Everything in assets/images
 
 ### How to play the game:
+This game is a shooter game (like Galaga).
 Level 1 is a "drone" level. Avoid the drones and their missiles or destroy them with your own as they make their way down the screen. You can only get hit once before you die.
 Level 2 is the "boss" level. His missiles actively target you so avoid them while trying to hit the boss (Ronaldo).
 
