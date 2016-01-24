@@ -22,22 +22,22 @@ Main.java
 ### Data (non Java) files needed:
 Everything in assets/images
 
-How to play the game:
+### How to play the game:
 Level 1 is a "drone" level. Avoid the drones and their missiles or destroy them with your own as they make their way down the screen. You can only get hit once before you die.
 Level 2 is the "boss" level. His missiles actively target you so avoid them while trying to hit the boss (Ronaldo).
 
-Keys/Mouse input:
+### Keys/Mouse input:
 Left key - move left
 Right key - move right
 Spacebar - fire missile
 
-Cheat Keys:
+### Cheat Keys:
 No cheats; you can get to both levels from the main menu.
 
-Known bugs:
+### Known bugs:
 You have to restart the game after you finish a level, to play another level.
 
-Extra features:
+### Extra features:
 
-Impressions/Suggestions:
+### Impressions/Suggestions:
 Maybe find newer tutorials/resources for game design? The ones that were on the website were a little old and outdated.
