@@ -2,7 +2,10 @@ import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.geometry.Rectangle2D;
+import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.util.Duration;
@@ -12,16 +15,15 @@ import javafx.util.Duration;
  * This is the main program, it is basically boilerplate to create
  * an animated scene.
  * 
- * @author Robert C. Duvall
+ * @author Anirudh Jonnavithula
  */
 public class Main extends Application {
-    public static final int SIZE = 400;
-    public static final int FRAMES_PER_SECOND = 60;
-    private static final int MILLISECOND_DELAY = 1000 / FRAMES_PER_SECOND;
-    private static final double SECOND_DELAY = 1.0 / FRAMES_PER_SECOND;
-
-    private LM10Game myGame;
-
+    private final int WIDTH = 800;
+    private final int HEIGHT = (int) Screen.getPrimary().getVisualBounds().getHeight();
+    private final int FRAMES_PER_SECOND = 60;
+    private final int MILLISECOND_DELAY = 1000 / FRAMES_PER_SECOND;
+    private final double SECOND_DELAY = 1.0 / FRAMES_PER_SECOND;
+    private int level = 0;
 
     /**
      * Set things up at the beginning.
@@ -29,22 +31,10 @@ public class Main extends Application {
     @Override
     public void start (Stage s) {
         // create your own game here
-        myGame = new LM10Game();
-        s.setTitle(myGame.getTitle());
-
-        // attach game to the stage and display it
-        Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
-        Scene scene = myGame.init(500, (int)primaryScreenBounds.getHeight());
-        s.setScene(scene);
-        s.show();
-
-        // sets the game's loop
-        KeyFrame frame = new KeyFrame(Duration.millis(MILLISECOND_DELAY),
-                                      e -> myGame.step(SECOND_DELAY));
-        Timeline animation = new Timeline();
-        animation.setCycleCount(Timeline.INDEFINITE);
-        animation.getKeyFrames().add(frame);
-        animation.play();
+    	
+    	LevelChanger levelChanger = new LevelChanger(s, FRAMES_PER_SECOND, WIDTH, HEIGHT);
+    	levelChanger.showMenuScreen();    	
+        
     }
 
     /**
@@ -52,5 +42,10 @@ public class Main extends Application {
      */
     public static void main (String[] args) {
         launch(args);
+    }
+    
+    private int getScreenHeight() {
+    	Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
+    	return (int)primaryScreenBounds.getHeight();
     }
 }
