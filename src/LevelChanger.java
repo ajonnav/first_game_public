@@ -67,12 +67,12 @@ public class LevelChanger {
 	
 	public void showSplashBeforeLevelOne() {
 		stage.hide();
-		showSplashScreen("LEVEL 1");
+		showSplashScreen("LEVEL 1\nPress 1 to play");
 	}
 	
 	public void showSplashBeforeLevelTwo() {
 		stage.hide();
-		showSplashScreen("LEVEL 2");
+		showSplashScreen("LEVEL 2\nPress 2 to play");
 	}
 	
 	public void showSplashScreen(String message) {
