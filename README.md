@@ -1,25 +1,25 @@
-## game
+# game
 First project for CompSci 308 Spring 2016
 
-#Name:
+## Name:
 LM10:Ronaldo's Revenge
 
-Date started:
+### Date started:
 January 20, 2016
 
-Date finished:
+### Date finished:
 January 24, 2016
 
-Hours worked:
+### Hours worked:
 30-40
 
-Resources used:
+### Resources used:
 The links on game design that you gave us. The image links are put in the file image_references.
 
-Main class file:
+### Main class file:
 Main.java
 
-Data (non Java) files needed:
+### Data (non Java) files needed:
 Everything in assets/images
 
 How to play the game:
