@@ -37,6 +37,8 @@ No cheats; you can get to both levels from the main menu.
 
 ### Known bugs:
 You have to restart the game after you finish a level, to play another level.
+The player goes off the screen if you aren't careful.
+All of the sprites don't get cleaned up properly at the end of the level.
 
 ### Extra features:
 
