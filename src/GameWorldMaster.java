@@ -1,5 +1,9 @@
 //This entire file is a part of my masterpiece
 //Anirudh Jonnavithula
+//This class runs the basic GameLoop (it serves as 
+//the GameEngine). This code is well designed 
+//because it is easily extensible and reduces
+//code redundancy.
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

@@ -1,5 +1,7 @@
 // This entire file is part of my masterpiece.
 // Anirudh Jonnavithula
+//This code helps generalize the concept of characters and missiles in the game
+//It helps in centralizing a lot of common code.
 
 import javafx.animation.FadeTransition;
 import javafx.event.Event;

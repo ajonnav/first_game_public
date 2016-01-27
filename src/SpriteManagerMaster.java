@@ -1,5 +1,9 @@
 // This entire file is part of my masterpiece.
 // Anirudh Jonnavithula
+//This class manages the sprites in the game.
+//It is well designed because it helps in 
+//centralizing a lot of common code.
+
 
 import java.util.ArrayList;
 import java.util.Arrays;

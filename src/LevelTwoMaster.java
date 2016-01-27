@@ -1,5 +1,8 @@
 // This entire file is part of my masterpiece.
 // Anirudh Jonnavithula
+// This class is the class for Level Two.
+//It is well designed because it does not
+//repeat code by making use of a superclass. 
 
 import javafx.scene.Group;
 import javafx.scene.Scene;
