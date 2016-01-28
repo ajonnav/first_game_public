@@ -1,8 +1,9 @@
 // This entire file is part of my masterpiece.
 // Anirudh Jonnavithula
-// This class is the class for Level Two.
-//It is well designed because it does not
-//repeat code by making use of a superclass. 
+//This class is the class for Level Two. This 
+//class runs the basic GameLoop. This code is 
+//easily extensible and reduces code redundancy
+//by making use of a superclass. 
 
 import javafx.scene.Group;
 import javafx.scene.Scene;

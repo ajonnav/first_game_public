@@ -1,7 +1,3 @@
-// This entire file is part of my masterpiece.
-// Anirudh Jonnavithula
-//This class represents Ronaldo, the boss in Level 2.
-//It is well designed because it makes use of a super class.
 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;

@@ -1,9 +1,4 @@
-// This entire file is part of my masterpiece.
-// Anirudh Jonnavithula
-//This class represents missiles shot by .
-//It is well designed because it different 
-//classes (MessiMaster and RonaldoMaster)
-//make use of it but the code is the same.
+
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 

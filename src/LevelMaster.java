@@ -1,8 +1,4 @@
-// This entire file is part of my masterpiece.
-// Anirudh Jonnavithula
-//This class abstracts the idea of a level.
-//This code is well designed because it is 
-//easily extensible and reduces code redundancy.
+
 
 import javafx.event.EventHandler;
 import javafx.scene.input.KeyCode;
